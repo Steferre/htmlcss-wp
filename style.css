@@ -105,6 +105,11 @@ aside, article {
 }
 
 footer {
-    background-color: #8801FE;
-    margin-top: 5px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+footer span {
+    color: #FF0000;
+    margin-left: 5px;
 }
