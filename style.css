@@ -55,8 +55,6 @@ nav ul > li {
 
 /*inizio main parte 2*/
 .s-two {
-    background-color: #0186FF;
-    height: 250px;
     margin-top: 10px;
 } 
  .title > span {
@@ -69,26 +67,37 @@ nav ul > li {
     clear: both;
 }
 
-.side-photo {
+.photo {
     width: 100%;
-    border: 1px solid black;
+    height: 200px;
     border-radius: 10px;
+    opacity: 0.8;
+}
+
+.layover-photo {
+    background-color: #000;
+    border-radius: 11px;
+    height: 200px;
+}
+
+aside > h5, p, article > h5, p {
+    margin-top: 15px;
+}
+
+aside > p, article > p {
+    color: #9E9E9E;
 }
 
 aside {
     width: 25%;
-    height: 200px;
     float: left;
-    background-color: #ABCFE7;
 }
 
 article {
     width: 48%;
-    height: 200px;
     float: left;
     margin-left: 1%;
     margin-right: 1%;
-    background-color: #ABCFE7;
 }
 
 aside, article {
