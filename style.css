@@ -33,9 +33,24 @@ nav ul > li {
 /*fine sezione header*/
 
 .s-one {
-    background-color: #E1D67A;
-    height: 150px; 
+    background-image: url(banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px; 
     margin-top: 10px;
+    border-radius: 10px;
+}
+
+.layover {
+    background-color: #000;
+    border-radius: 10px;
+    height: 350px;
+    opacity: 0.2;
+}/*messo layover perchè se no il testo bianco non si vedeva*/
+
+.content {
+    padding: 220px 150px 35px 25px; 
+    color: #ffffff;
 }
 
 .s-two {
