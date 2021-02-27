@@ -53,21 +53,26 @@ nav ul > li {
     color: #ffffff;
 }
 
+/*inizio main parte 2*/
 .s-two {
     background-color: #0186FF;
     height: 250px;
     margin-top: 10px;
-}
-
-.title {
-    background-color: #ABCFE7;
-    height: 35px;
-}
-
+} 
+ .title > span {
+     color: #929292;
+ }
+ 
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
+}
+
+.side-photo {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
 aside {
